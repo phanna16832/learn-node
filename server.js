@@ -9,8 +9,8 @@ app.set("view engine", "ejs");
 app.use(express.static('static'));
 
 
-const port = 8000;
-app.listen(port ,(req,res) =>{
+const PORT = 8000;
+app.listen(PORT ,(req,res) =>{
   console.log(`Server is running on http://localhost:${port}`);
 })
 
